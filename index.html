@@ -31,7 +31,33 @@
                 <div class="col-9">
                 <nav class="navbar bg-body-tertiary">
                     
-                    <button type="button" class="btn btn-success">Create a new post</button>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create a new post</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Create a new post</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Caption:
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+                                        <label for="floatingTextareaDisabled">Add the caption of your post here</label>
+                                    </div>
+                                
+                                    <button type="button" class="btn btn-light border border-dark-subtle" style="margin-right:10px;"><i class="bi bi-camera-fill"></i></button>
+                                    <button type="button" class="btn btn-light border border-dark-subtle"><i class="bi bi-geo-alt-fill"></i></button>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+     
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-gear"></i>
@@ -45,8 +71,7 @@
                         </ul>
                       </div>
                     </nav>
-                </div>
-                </div>
+                </div>                                                                                                                                                                                    
             </div>
             </nav>
         </div>
@@ -167,7 +192,7 @@
             <div class="col-4 p-1"> <img src="https://i.pinimg.com/1200x/04/d0/a7/04d0a79d327bbc877f70a96de983edb9.jpg" style = "width:430px; height:300px; object-fit: cover;"class="img-fluid" alt=""></div>
             <div class="col-4 p-1"> <img src="https://www.bicaalu.com/wp-content/uploads/videos_de_perritos_y_gatitos_en_internet.jpg" style = "width:430px; height:300px; object-fit: cover;"class="img-fluid" alt=""></div>
             <div class="col-4 p-1"> <img src="https://www.bicaalu.com/wp-content/uploads/videos_de_perritos_y_gatitos_en_internet.jpg" style = "width:430px; height:300px; object-fit: cover;"class="img-fluid" alt=""></div>
-            <div class="col-4 p-1"> <img src="https://www.bicaalu.com/wp-content/uploads/videos_de_perritos_y_gatitos_en_internet.jpg" style = "width:430px; height:300px; object-fit: cover;"class="img-fluid" alt=""></div>
+            <div class="col-4 p-1"> <img src="https://www.bicaalu.com/wp-content/uploads/videos_de_perritos_y_gatitos_en_internet.jpg" style = "width:430px; height:300px; object-fit: cover;"                                                                                     " alt=""></div>
             
         </div>
         </div>
